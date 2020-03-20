@@ -4,7 +4,7 @@
 #
 Name     : php-Xdebug
 Version  : 2.8.0alpha1
-Release  : 1
+Release  : 2
 URL      : https://pecl.php.net//get/xdebug-2.8.0alpha1.tgz
 Source0  : https://pecl.php.net//get/xdebug-2.8.0alpha1.tgz
 Summary  : No detailed summary available
