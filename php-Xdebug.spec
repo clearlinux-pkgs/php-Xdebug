@@ -4,7 +4,7 @@
 #
 Name     : php-Xdebug
 Version  : 2.9.4
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net/get/xdebug-2.9.4.tgz
 Source0  : https://pecl.php.net/get/xdebug-2.9.4.tgz
 Summary  : No detailed summary available
