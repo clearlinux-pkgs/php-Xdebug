@@ -4,27 +4,18 @@
 #
 Name     : php-Xdebug
 Version  : 2.9.4
-Release  : 6
+Release  : 8
 URL      : https://pecl.php.net/get/xdebug-2.9.4.tgz
 Source0  : https://pecl.php.net/get/xdebug-2.9.4.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : PHP-3.01
-Requires: php-Xdebug-lib = %{version}-%{release}
 BuildRequires : buildreq-php
 
 %description
 ======
 With this debug client you can control the Xdebug server. For compilation and
 installation see the INSTALL file.
-
-%package lib
-Summary: lib components for the php-Xdebug package.
-Group: Libraries
-
-%description lib
-lib components for the php-Xdebug package.
-
 
 %prep
 %setup -q -n xdebug-2.9.4
@@ -35,7 +26,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 phpize
-%configure
+%configure --disable-static
 make  %{?_smp_mflags}
 
 %install
@@ -44,7 +35,3 @@ make  %{?_smp_mflags}
 
 %files
 %defattr(-,root,root,-)
-
-%files lib
-%defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20190902/xdebug.so
