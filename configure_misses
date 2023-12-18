@@ -1,6 +1,10 @@
+Configure miss: clock_gettime_nsec_np
 Configure miss: icc
-Configure miss: suncc
-Configure miss: if compiler supports -R
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
+Configure miss: res_nclose
+Configure miss: res_ninit
+Configure miss: suncc
 Configure miss: whether to enable Xdebug developer build flags
+Configure miss: x86_64-generic-linux-gnu-file
+Configure miss: zlib >= 1.2.9
