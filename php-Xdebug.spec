@@ -7,7 +7,7 @@
 #
 Name     : php-Xdebug
 Version  : 3.3.1
-Release  : 45
+Release  : 46
 URL      : https://pecl.php.net/get/xdebug-3.3.1.tgz
 Source0  : https://pecl.php.net/get/xdebug-3.3.1.tgz
 Summary  : No detailed summary available
