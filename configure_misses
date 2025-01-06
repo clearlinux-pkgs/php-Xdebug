@@ -1,7 +1,7 @@
 Configure miss: clock_gettime_nsec_np
 Configure miss: icc
-Configure miss: if debug is enabled
-Configure miss: if zts is enabled
+Configure miss: if PHP is built with thread safety (ZTS)
+Configure miss: if debugging is enabled
 Configure miss: res_nclose
 Configure miss: res_ninit
 Configure miss: suncc
